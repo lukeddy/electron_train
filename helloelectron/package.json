@@ -1,0 +1,15 @@
+{
+  "name": "helloelectron",
+  "version": "1.0.0",
+  "description": "基于Git开源项目electron桌面应用",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "tangzhiqiang",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5",
+    "install": "^0.6.1"
+  }
+}
