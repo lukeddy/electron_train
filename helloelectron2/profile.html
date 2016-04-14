@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>配置文件</title>
+</head>
+<body>
+  <div>
+      <p>我是配置文件</p>
+      <p>
+          <button id="mybtn">点我</button>
+      </p>
+  </div>
+</body>
+</html>
+<script>
+    var ipc=require('ipc');
+    var mybtn=document.getElementById('mybtn');
+    mybtn.addEventListener('click',function(){
+        ipc.send('hide-profile');
+    });
+
+</script>
