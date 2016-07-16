@@ -1,0 +1,7 @@
+/helloelectron/node_modules
+# Created by .ignore support plugin (hsz.mobi)
+/helloelectron3/node_modules
+/helloelectron2/node_modules
+node_modules
+.DS_Store
+.idea
